@@ -20,7 +20,7 @@ supports 'mac_os_x', '>= 10.6.0'
 end
 
 depends 'runit', '>= 1.0'
-depends 'yum', '~> 3.0'
+depends 'yum'
 depends 'yum-epel'
 
 attribute 'git/server/base_path',
